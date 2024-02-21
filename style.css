@@ -1,0 +1,51 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#container
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#container>div
+{
+    width: 100%;
+    height: 50vh;
+}
+
+#container>div>div
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+#image_const>img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.b_1 , .b_2 , .b_3
+{
+ text-align: start;
+ display: flex;
+ align-self: center;
+ width: 100%;
+}
+
+#about_me_sec
+{
+    background-color: rgba(179, 189, 198, 0.43);
+}
+
+#contact_me_sec
+{
+    background-color: aquamarine;
+}
